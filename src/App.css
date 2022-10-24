@@ -64,6 +64,7 @@ form input {
 .todo_container {
   width: 50%;
   margin: 0 auto;
+  display: block;
 }
 .todo {
   margin-top: 20px;
@@ -93,11 +94,9 @@ form input {
   outline: none;
   cursor: pointer;
   background-color: transparent;
-  border-radius: 50%;
+  font-size: 20px;
 }
-#i {
-  font-size: 35px;
-}
+
 .button-complete {
   color: green;
   margin-right: 10px;

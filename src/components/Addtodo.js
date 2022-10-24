@@ -15,22 +15,24 @@ const Addtodo = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <div className="input-container">
-        <input
-          type="text"
-          placeholder="Enter task..."
-          value={title}
-          onChange={(e) => setTitle(e.target.value)}
-        />
-      </div>
-      <div className="btn_container">
-        <button>Submit</button>
-      </div>
-      <div className="edittext">
-        <h1>click on task to edit</h1>
-      </div>
-    </form>
+    <div className="whole1">
+      <form onSubmit={handleSubmit}>
+        <div className="input-container">
+          <input
+            type="text"
+            placeholder="Enter task..."
+            value={title}
+            onChange={(e) => setTitle(e.target.value)}
+          />
+        </div>
+        <div className="btn_container">
+          <button>Submit</button>
+        </div>
+        <div className="edittext">
+          <h1>click on task to edit</h1>
+        </div>
+      </form>
+    </div>
   );
 };
 
