@@ -11,6 +11,7 @@ const Addtodo = () => {
         title,
         completed: false,
       });
+      setTitle("");
     }
   };
 
