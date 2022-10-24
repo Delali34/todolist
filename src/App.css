@@ -8,6 +8,7 @@ body {
   background: url("../public/istockphoto-1305264822-640x640.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 }
 .title h1 {
   color: #3a3a3a;
@@ -62,9 +63,9 @@ form input {
 }
 
 .todo_container {
-  width: 50%;
+  max-width: 500px;
   margin: 0 auto;
-  display: block;
+  padding: 10px 20px;
 }
 .todo {
   margin-top: 20px;
@@ -113,6 +114,26 @@ form input {
   }
   .task {
     margin-right: 0px;
+  }
+  .button-complete,
+  .button-delete,
+  .button-edit {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 16px;
+  }
+  .todo input {
+    cursor: pointer;
+    width: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
   }
 }
 input:focus,
